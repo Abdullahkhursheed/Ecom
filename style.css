@@ -1,0 +1,183 @@
+*{
+  margin:0; padding:0;
+  font-family:Arial;
+  box-sizing:border-box;
+}
+
+body{
+  background:#fff;
+}
+
+/* NAVBAR */
+.navbar{
+  width:100%;
+  padding:20px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-weight:bold;
+}
+
+.nav-links li{
+  display:inline-block;
+  margin:0 15px;
+  cursor:pointer;
+}
+
+.hero{
+  padding: 80px 50px;
+  min-height: 450px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: url("hero.png");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+
+  border-radius: 20px;
+}
+
+
+.shop-btn{
+  background:black;
+  color:white;
+  padding:12px 25px;
+  border:none;
+  margin-top:20px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.hero-img{
+  width:350px;
+}
+
+.brands{
+  text-align: center;
+  padding: 25px;
+
+  display: flex;
+  justify-content: space-around;
+
+  background: #000;        
+  color: #fff;             
+  border-radius: 12px;     
+  margin: 30px 40px;       
+}
+
+/* SECTIONS */
+.section{
+  padding:50px;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:30px;
+  font-size:27px;
+}
+
+/* PRODUCT GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:25px;
+}
+
+.card{
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+  border:1px solid #eee;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+.card img{
+  width:120px;
+  margin-bottom:10px;
+}
+
+/* DRESS STYLE */
+.dress-style{
+  padding:50px;
+  background:#f8f8f8;
+  border-radius:20px;
+  margin:40px;
+}
+
+.style-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+}
+
+
+
+
+.style-box img{
+  width:100%;
+  border-radius:15px;
+}
+
+.style-box span{
+  position:absolute;
+  bottom:15px;
+  left:15px;
+  background:black;
+  color:white;
+  padding:8px 15px;
+  border-radius:8px;
+}
+
+/* TESTIMONIAL */
+.review-box{
+  width:350px;
+  margin:auto;
+  text-align:center;
+  padding:20px;
+  border-radius:15px;
+  border:1px solid #eee;
+}
+
+/* SUBSCRIBE BOX */
+.subscribe{
+  text-align:center;
+  padding:40px;
+  background:black;
+  color:white;
+  border-radius:15px;
+  width:80%;
+  margin:50px auto;
+}
+
+.subscribe input{
+  width:300px;
+  padding:12px;
+  border:none;
+  margin-top:20px;
+  border-radius:5px;
+}
+
+.subscribe button{
+  padding:12px 25px;
+  background:white;
+  color:black;
+  border:none;
+  margin-left:10px;
+  border-radius:5px;
+}
+
+/* FOOTER */
+.footer{
+  text-align:center;
+  padding:20px;
+  background:#222;
+  color:white;
+  margin-top:40px;
+}
