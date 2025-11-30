@@ -104,22 +104,18 @@ body{
 }
 
 /* DRESS STYLE */
-/* Dress Style Box */
-.style-box {
-  position: relative;
-  overflow: hidden;
-  border-radius: 15px;
-  animation: fadeIn 0.8s ease-in-out forwards;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+.dress-style{
+  padding:50px;
+  background:#f8f8f8;
+  border-radius:20px;
+  margin:40px;
 }
 
-/* Hover Zoom */
-.style-box:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+.style-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
 }
-
-
 
 
 
